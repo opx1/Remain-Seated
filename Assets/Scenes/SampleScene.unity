@@ -936,12 +936,17 @@ MonoBehaviour:
   leftWheelAction: {fileID: -9108099597821701419, guid: 74231e6de7068914f97a5a0b562c5804, type: 3}
   rightWheelAction: {fileID: -6668309582263193387, guid: 74231e6de7068914f97a5a0b562c5804, type: 3}
   scrollAction: {fileID: 1757591586408808879, guid: 74231e6de7068914f97a5a0b562c5804, type: 3}
+  cameraAction: {fileID: -7397415879469489106, guid: 74231e6de7068914f97a5a0b562c5804, type: 3}
   wheelForce: 200
   turnForce: 5
   maxSpeed: 5
   maxTurnSpeed: 2
   playerCamera: {fileID: 330585546}
   cameraFollowSmooth: 5
+  mouseSensitivity: 10
+  minVertical: -30
+  maxVertical: 30
+  maxHorizontal: 60
 --- !u!136 &1556124885
 CapsuleCollider:
   m_ObjectHideFlags: 0
